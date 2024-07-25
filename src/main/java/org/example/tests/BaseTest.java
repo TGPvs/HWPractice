@@ -9,6 +9,7 @@ import org.testng.annotations.BeforeSuite;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.sql.SQLOutput;
 import java.util.Properties;
 
 public class BaseTest {
@@ -22,6 +23,7 @@ public class BaseTest {
         }
         driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
+        System.out.println("Драйвер успешно запущен");
     }
 
     public String getFromProperties(String propertyKey) {
@@ -38,6 +40,7 @@ public class BaseTest {
     @AfterSuite
     public void tearDawn() {
         driver.quit();
+        System.out.println("Браузер закрыт");
     }
 }
 

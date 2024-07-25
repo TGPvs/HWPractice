@@ -9,6 +9,6 @@ public class TestClass extends BaseTest {
     public void openBrowser() {
 
         driver.get( getFromProperties( "homeUrl" ) );
-        System.out.println( "Браузер успешно запущен c нужной страницы" );
+        System.out.println( "Открыта нужная страница браузера" );
     }
 }
