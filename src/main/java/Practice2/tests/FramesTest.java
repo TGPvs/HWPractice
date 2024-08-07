@@ -20,8 +20,7 @@ public class FramesTest extends BaseTest {
         driver.switchTo().defaultContent(); // чтобы попасть в след фрейм надо вернуться на главную страницу
         driver.switchTo().frame(1).findElement( framesPage.frame2Input ).sendKeys( "Разобрался" );
         driver.switchTo().defaultContent();
-        driver.switchTo().frame(driver.findElement( By.xpath("//frame[@src='frame_3.html']")));
-        driver.findElement( framesPage.frame3Input ).sendKeys( "Как" );
+        driver.switchTo().frame(2).findElement( framesPage.frame3Input ).sendKeys( "Как" );
         driver.switchTo().defaultContent();
         driver.switchTo().frame(3).findElement( framesPage.frame4Input ).sendKeys( "Это" );
         driver.switchTo().defaultContent();
@@ -29,7 +28,7 @@ public class FramesTest extends BaseTest {
         driver.switchTo().defaultContent();
 
 
-        System.out.println("test");
+        System.out.println("Test OK");
 
     }
 }
