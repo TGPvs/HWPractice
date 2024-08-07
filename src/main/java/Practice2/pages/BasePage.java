@@ -1,13 +1,12 @@
-package org.example.pages;
+package Practice2.pages;
 
 import org.openqa.selenium.WebDriver;
 
 public class BasePage {
     protected WebDriver driver;
 
-
-    BasePage(WebDriver driver) {
+    public BasePage(WebDriver driver) {
         this.driver = driver;
-    }
 
+    }
 }
