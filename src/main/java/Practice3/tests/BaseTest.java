@@ -1,7 +1,6 @@
 package Practice3.tests;
 
-import Lesson4.pages.*;
-import org.testng.annotations.AfterClass;
+import Practice3.pages.*;
 import org.testng.annotations.BeforeClass;
 
 import java.io.FileInputStream;

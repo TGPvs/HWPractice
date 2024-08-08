@@ -1,6 +1,6 @@
 package Practice3.tests;
 
-import Lesson4.pages.HomePage;
+import Practice3.pages.HomePage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

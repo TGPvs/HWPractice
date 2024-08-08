@@ -2,7 +2,6 @@ package Practice3.pages;
 
 
 import com.codeborne.selenide.SelenideElement;
-import org.openqa.selenium.WebDriver;
 
 
 import static com.codeborne.selenide.Selenide.$x;

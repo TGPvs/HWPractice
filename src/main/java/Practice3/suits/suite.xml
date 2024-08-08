@@ -4,7 +4,7 @@
 
     <test name="Smoke">
         <classes>
-            <class name="Practice4.tests.TextInputTest"/>
+            <class name="Practice3.tests.FramesTest"/>
         </classes>
     </test>
 </suite>
