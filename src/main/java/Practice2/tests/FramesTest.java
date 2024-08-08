@@ -28,6 +28,7 @@ public class FramesTest extends BaseTest {
         driver.switchTo().defaultContent();
 
 
+
         System.out.println("Test OK");
 
     }
